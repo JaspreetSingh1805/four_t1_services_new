@@ -1,0 +1,228 @@
+{% extends 'core/base.html' %}
+{% load static %}
+
+{% block title %}Tyre Brands & Contact | 4T1 Services{% endblock %}
+
+{% block content %}
+<!-- Page Hero Banner -->
+<section class="page-hero">
+  <div class="container">
+    <h1>TYRE BRANDS & CONTACT</h1>
+    <p>Melbourne & Surrounding Areas • Premium Tyre Stock & 24/7 Response</p>
+  </div>
+</section>
+
+<!-- Section 1: Tyres From Major Brands -->
+<section class="section">
+  <div class="container">
+    <div class="media-block">
+      <div>
+        <div class="section-header">
+          <p class="subtitle">Trusted Quality Brands</p>
+          <h2>TYRES FROM MAJOR BRANDS</h2>
+          <div class="gold-divider"></div>
+        </div>
+        <p>
+          At 4T1 Services, we understand that different vehicles and drivers have different tyre requirements. That's why we can provide tyres from a wide range of major tyre brands, giving you more choice when selecting tyres for your truck, 4WD or 4x4.
+        </p>
+
+        <div class="highlight-box">
+          <p>
+            Whether you're looking for tyres for:<br>
+            <strong style="color: var(--color-accent);">Work • Highway • Touring • All Terrain • Mud Terrain • Commercial Use</strong><br>
+            We can help you find an option that suits your vehicle and requirements.
+          </p>
+        </div>
+      </div>
+
+      <div class="media-img-wrapper">
+        <img src="{% static 'images/tyre-brands-wall.jpg' %}" alt="Tyre Warehouse Stock & Brands">
+      </div>
+    </div>
+
+    <!-- Row of Major Brand Cards -->
+    <div class="brands-grid">
+      <div class="brand-card"><i class="fa-solid fa-certificate" style="color: var(--color-accent); margin-right: 0.5rem; font-size: 1.2rem;"></i> MICHELIN</div>
+      <div class="brand-card"><i class="fa-solid fa-certificate" style="color: var(--color-accent); margin-right: 0.5rem; font-size: 1.2rem;"></i> BRIDGESTONE</div>
+      <div class="brand-card"><i class="fa-solid fa-certificate" style="color: var(--color-accent); margin-right: 0.5rem; font-size: 1.2rem;"></i> GOODYEAR</div>
+      <div class="brand-card"><i class="fa-solid fa-certificate" style="color: var(--color-accent); margin-right: 0.5rem; font-size: 1.2rem;"></i> DUNLOP</div>
+      <div class="brand-card"><i class="fa-solid fa-certificate" style="color: var(--color-accent); margin-right: 0.5rem; font-size: 1.2rem;"></i> YOKOHAMA</div>
+      <div class="brand-card"><i class="fa-solid fa-certificate" style="color: var(--color-accent); margin-right: 0.5rem; font-size: 1.2rem;"></i> TOYO TIRES</div>
+      <div class="brand-card"><i class="fa-solid fa-certificate" style="color: var(--color-accent); margin-right: 0.5rem; font-size: 1.2rem;"></i> BFGOODRICH</div>
+      <div class="brand-card"><i class="fa-solid fa-certificate" style="color: var(--color-accent); margin-right: 0.5rem; font-size: 1.2rem;"></i> PIRELLI</div>
+    </div>
+  </div>
+</section>
+
+<!-- Section 2: Why 4T1 Services — 6 Feature Blocks -->
+<section class="section section-alt">
+  <div class="container">
+    <div class="section-header text-center">
+      <p class="subtitle">Why Customers Choose Us</p>
+      <h2>WHY 4T1 SERVICES</h2>
+      <div class="gold-divider"></div>
+    </div>
+
+    <div class="services-bullet-grid">
+      <div class="feature-card" style="padding: 1.8rem 1.5rem;">
+        <div class="icon-badge-sm" style="margin-bottom: 1rem;"><i class="fa-solid fa-truck-front"></i></div>
+        <h4 style="color: var(--color-text); margin-bottom: 0.5rem;">Truck Tyres</h4>
+        <p style="font-size: 0.9rem;">Solutions for trucks and heavy vehicles.</p>
+      </div>
+
+      <div class="feature-card" style="padding: 1.8rem 1.5rem;">
+        <div class="icon-badge-sm" style="margin-bottom: 1rem;"><i class="fa-solid fa-truck-monster"></i></div>
+        <h4 style="color: var(--color-text); margin-bottom: 0.5rem;">4x4 Tyres</h4>
+        <p style="font-size: 0.9rem;">Tyres for work, touring and off-road use.</p>
+      </div>
+
+      <div class="feature-card" style="padding: 1.8rem 1.5rem;">
+        <div class="icon-badge-sm" style="margin-bottom: 1rem;"><i class="fa-solid fa-clock"></i></div>
+        <h4 style="color: var(--color-text); margin-bottom: 0.5rem;">24/7 Callout</h4>
+        <p style="font-size: 0.9rem;">Tyre assistance whenever you need it.</p>
+      </div>
+
+      <div class="feature-card" style="padding: 1.8rem 1.5rem;">
+        <div class="icon-badge-sm" style="margin-bottom: 1rem;"><i class="fa-solid fa-location-dot"></i></div>
+        <h4 style="color: var(--color-text); margin-bottom: 0.5rem;">On-Site Service</h4>
+        <p style="font-size: 0.9rem;">We can come to your yard or location.</p>
+      </div>
+
+      <div class="feature-card" style="padding: 1.8rem 1.5rem;">
+        <div class="icon-badge-sm" style="margin-bottom: 1rem;"><i class="fa-solid fa-truck-moving"></i></div>
+        <h4 style="color: var(--color-text); margin-bottom: 0.5rem;">Fleet Support</h4>
+        <p style="font-size: 0.9rem;">Tyre maintenance for businesses and fleets.</p>
+      </div>
+
+      <div class="feature-card" style="padding: 1.8rem 1.5rem;">
+        <div class="icon-badge-sm" style="margin-bottom: 1rem;"><i class="fa-solid fa-tags"></i></div>
+        <h4 style="color: var(--color-text); margin-bottom: 0.5rem;">Wide Brand Range</h4>
+        <p style="font-size: 0.9rem;">Major tyre brands available.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Section 3: Get In Touch / Contact Card & Form Section -->
+<section class="section" id="contact-form-section">
+  <div class="container">
+    <div class="contact-grid">
+      <!-- Contact Info & Official Card Panel -->
+      <div class="contact-info-panel">
+        <div class="section-header">
+          <p class="subtitle">Direct Contact &amp; QR Scanner</p>
+          <h2>NEED TYRES? NEED A CALLOUT?</h2>
+          <div class="gold-divider"></div>
+        </div>
+        <p>
+          Whether you need new tyres, a tyre replacement, emergency assistance or regular yard maintenance, 4T1 Services is here to help.
+        </p>
+
+        <!-- Official Contact Card Banner -->
+        <div style="background: #000000; border: 2px solid var(--color-accent); padding: 1.5rem; border-radius: 6px; margin: 1.5rem 0;">
+          <div style="display: grid; grid-template-columns: 1fr auto; gap: 1.5rem; align-items: center;">
+            <div>
+              <!-- Sammie -->
+              <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem; border-bottom: 1px solid var(--color-card-border); padding-bottom: 0.75rem;">
+                <div class="icon-badge-sm" style="background: var(--color-accent); color: #000;"><i class="fa-solid fa-user"></i></div>
+                <div>
+                  <div style="font-family: var(--font-heading); font-size: 1.3rem; color: var(--color-accent); letter-spacing: 1px;">SAMMIE</div>
+                  <a href="tel:0421191220" style="font-family: var(--font-body); font-weight: 800; font-size: 1.2rem; color: #FFFFFF;">0421 191 220</a>
+                </div>
+              </div>
+
+              <!-- Robin -->
+              <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem; border-bottom: 1px solid var(--color-card-border); padding-bottom: 0.75rem;">
+                <div class="icon-badge-sm" style="background: var(--color-accent); color: #000;"><i class="fa-solid fa-user"></i></div>
+                <div>
+                  <div style="font-family: var(--font-heading); font-size: 1.3rem; color: var(--color-accent); letter-spacing: 1px;">ROBIN</div>
+                  <a href="tel:0450480043" style="font-family: var(--font-body); font-weight: 800; font-size: 1.2rem; color: #FFFFFF;">0450 480 043</a>
+                </div>
+              </div>
+
+              <!-- Email -->
+              <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.75rem;">
+                <div class="icon-badge-sm"><i class="fa-solid fa-envelope"></i></div>
+                <a href="mailto:4t1services@gmail.com" style="color: #FFFFFF; font-weight: 600;">4t1services@gmail.com</a>
+              </div>
+
+              <!-- Location -->
+              <div style="display: flex; align-items: center; gap: 0.75rem;">
+                <div class="icon-badge-sm"><i class="fa-solid fa-location-dot"></i></div>
+                <div style="color: var(--color-accent); font-weight: 800; font-size: 0.95rem;">SERVICING MELBOURNE &amp; SURROUNDING AREAS</div>
+              </div>
+            </div>
+
+            <!-- QR Scanner Box -->
+            <div style="text-align: center; background: rgba(231,177,27,0.05); padding: 0.75rem; border: 1px dashed var(--color-accent); border-radius: 4px;">
+              <img src="{% static 'images/qr-code.png' %}" alt="Scan to save 4T1 Services contact" style="max-height: 160px; width: auto; border-radius: 4px; display: block; margin: 0 auto;">
+              <div style="font-family: cursive, sans-serif; color: var(--color-accent); font-size: 0.85rem; margin-top: 0.5rem;">Scan to save our contact &rarr;</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3 Quick Action Buttons -->
+        <div class="action-buttons-row">
+          <a href="tel:0421191220" class="btn btn-primary">
+            <i class="fa-solid fa-phone"></i> CALL SAMMIE
+          </a>
+          <a href="tel:0450480043" class="btn btn-primary">
+            <i class="fa-solid fa-phone"></i> CALL ROBIN
+          </a>
+          <a href="mailto:4t1services@gmail.com" class="btn btn-secondary">
+            <i class="fa-solid fa-paper-plane"></i> EMAIL US
+          </a>
+        </div>
+      </div>
+
+      <!-- Working Contact Form Panel -->
+      <div class="contact-form-card">
+        <h3 style="margin-bottom: 0.5rem;">SEND US A MESSAGE</h3>
+        <p style="font-size: 0.95rem; margin-bottom: 2rem; color: var(--color-text-muted);">
+          Fill out the form below and Sammie or Robin will get back to you promptly.
+        </p>
+
+        <form method="POST" action="{% url 'contact' %}">
+          {% csrf_token %}
+
+          <div class="form-group">
+            <label class="form-label" for="{{ form.name.id_for_label }}">Full Name *</label>
+            {{ form.name }}
+            {% if form.name.errors %}
+              <div style="color: #e74c3c; font-size: 0.85rem; margin-top: 0.25rem;">{{ form.name.errors.0 }}</div>
+            {% endif %}
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="{{ form.phone.id_for_label }}">Phone Number *</label>
+            {{ form.phone }}
+            {% if form.phone.errors %}
+              <div style="color: #e74c3c; font-size: 0.85rem; margin-top: 0.25rem;">{{ form.phone.errors.0 }}</div>
+            {% endif %}
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="{{ form.email.id_for_label }}">Email Address *</label>
+            {{ form.email }}
+            {% if form.email.errors %}
+              <div style="color: #e74c3c; font-size: 0.85rem; margin-top: 0.25rem;">{{ form.email.errors.0 }}</div>
+            {% endif %}
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="{{ form.message.id_for_label }}">Message / Tyre & Location Details *</label>
+            {{ form.message }}
+            {% if form.message.errors %}
+              <div style="color: #e74c3c; font-size: 0.85rem; margin-top: 0.25rem;">{{ form.message.errors.0 }}</div>
+            {% endif %}
+          </div>
+
+          <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 1rem;">
+            <i class="fa-solid fa-paper-plane"></i> SUBMIT ENQUIRY
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}

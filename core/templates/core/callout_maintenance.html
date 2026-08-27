@@ -1,0 +1,112 @@
+{% extends 'core/base.html' %}
+{% load static %}
+
+{% block title %}24/7 Callout & Yard Maintenance | 4T1 Services{% endblock %}
+
+{% block content %}
+<!-- Page Hero Banner -->
+<section class="page-hero">
+  <div class="container">
+    <h1>24/7 CALLOUT & YARD MAINTENANCE</h1>
+    <p>Rapid Roadside Breakdown & Commercial Fleet Yard Care — Melbourne & Surrounding Areas</p>
+  </div>
+</section>
+
+<!-- Section 1: 24/7 Tyre Callout Service -->
+<section class="section">
+  <div class="container">
+    <div class="media-block">
+      <div>
+        <div class="section-header">
+          <p class="subtitle">Emergency Assistance Any Time</p>
+          <h2>24/7 TYRE CALLOUT SERVICE</h2>
+          <div class="gold-divider"></div>
+        </div>
+        <p>
+          A tyre problem can happen anywhere and at any time. That's why 4T1 Services provides 24/7 call-out tyre assistance for customers who need help on the road, at a worksite or at their yard across Melbourne & surrounding areas.
+        </p>
+
+        <h4 style="color: var(--color-accent); margin-top: 1.5rem; margin-bottom: 0.5rem;">Services Covered:</h4>
+        <ul class="content-list">
+          <li><i class="fa-solid fa-triangle-exclamation"></i> Flat tyres</li>
+          <li><i class="fa-solid fa-triangle-exclamation"></i> Damaged tyres</li>
+          <li><i class="fa-solid fa-triangle-exclamation"></i> Tyre replacement</li>
+          <li><i class="fa-solid fa-triangle-exclamation"></i> Emergency tyre assistance</li>
+          <li><i class="fa-solid fa-triangle-exclamation"></i> Truck tyre problems</li>
+          <li><i class="fa-solid fa-triangle-exclamation"></i> 4WD & 4x4 tyre problems</li>
+        </ul>
+
+        <div class="highlight-box">
+          <p><i class="fa-solid fa-moon" style="color: var(--color-accent); margin-right: 0.5rem;"></i> Day or night, we're ready to help get you moving again.</p>
+        </div>
+      </div>
+
+      <div class="media-img-wrapper">
+        <img src="{% static 'images/night-callout.jpg' %}" alt="24/7 Emergency Night Callout Service">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Call Us Anytime CTA Block -->
+<section class="cta-banner">
+  <div class="container">
+    <div class="cta-banner-content">
+      <h2>CALL US ANYTIME — 24/7 ASSISTANCE</h2>
+      <p>
+        When you have a tyre problem, don't let it keep your vehicle off the road. Contact 4T1 Services for 24/7 tyre assistance in Melbourne & surrounding areas.
+      </p>
+      <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
+        <a href="tel:0421191220" class="btn btn-primary">
+          <i class="fa-solid fa-phone"></i> CALL SAMMIE 0421 191 220
+        </a>
+        <a href="tel:0450480043" class="btn btn-outline">
+          <i class="fa-solid fa-phone"></i> CALL ROBIN 0450 480 043
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Section 2: Yard & Fleet Tyre Maintenance -->
+<section class="section section-alt">
+  <div class="container">
+    <div class="media-block reverse">
+      <div>
+        <div class="section-header">
+          <p class="subtitle">Commercial Support</p>
+          <h2>YARD & FLEET TYRE MAINTENANCE</h2>
+          <div class="gold-divider"></div>
+        </div>
+        <p>
+          For businesses operating multiple trucks or vehicles, tyre maintenance is an important part of keeping your fleet running. 4T1 Services can provide on-site yard tyre services, helping businesses manage their tyre requirements conveniently at their own location.
+        </p>
+
+        <h4 style="color: var(--color-accent); margin-top: 1.5rem; margin-bottom: 0.5rem;">Ideal For:</h4>
+        <ul class="content-list">
+          <li><i class="fa-solid fa-warehouse"></i> Truck fleets</li>
+          <li><i class="fa-solid fa-warehouse"></i> Transport companies</li>
+          <li><i class="fa-solid fa-warehouse"></i> Work vehicles</li>
+          <li><i class="fa-solid fa-warehouse"></i> 4WD fleets</li>
+          <li><i class="fa-solid fa-warehouse"></i> Commercial vehicles</li>
+          <li><i class="fa-solid fa-warehouse"></i> Business yards</li>
+        </ul>
+
+        <p style="font-weight: 700; color: var(--color-text); margin-top: 1.5rem;">
+          Regular tyre checks and maintenance can help identify tyre issues before they become bigger problems. Keep your fleet moving with 4T1 Services.
+        </p>
+
+        <div style="margin-top: 2rem;">
+          <a href="{% url 'contact' %}" class="btn btn-outline">
+            <i class="fa-solid fa-clipboard-list"></i> BOOK YARD MAINTENANCE
+          </a>
+        </div>
+      </div>
+
+      <div class="media-img-wrapper">
+        <img src="{% static 'images/fleet-trucks.jpg' %}" alt="Yard Fleet Trucks Maintenance">
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}

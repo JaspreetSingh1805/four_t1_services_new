@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 520" width="700" height="520">
+  <defs>
+    <!-- Gold Gradients -->
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5D061" />
+      <stop offset="50%" stop-color="#E7B11B" />
+      <stop offset="100%" stop-color="#A2770B" />
+    </linearGradient>
+    <linearGradient id="goldLightGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFE48A" />
+      <stop offset="70%" stop-color="#E7B11B" />
+      <stop offset="100%" stop-color="#B88507" />
+    </linearGradient>
+    
+    <!-- Silver Gradients -->
+    <linearGradient id="silverGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="50%" stop-color="#E2E4E9" />
+      <stop offset="100%" stop-color="#9AA0A6" />
+    </linearGradient>
+    <linearGradient id="silverDarkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E2E4E9" />
+      <stop offset="100%" stop-color="#555A62" />
+    </linearGradient>
+
+    <!-- Tire Gradient -->
+    <linearGradient id="tireGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3A3D40" />
+      <stop offset="50%" stop-color="#1F2124" />
+      <stop offset="100%" stop-color="#0F1012" />
+    </linearGradient>
+    <linearGradient id="treadGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6A6F75" />
+      <stop offset="100%" stop-color="#222426" />
+    </linearGradient>
+  </defs>
+
+  <!-- Top Arch Arc (Silver Metallic) -->
+  <path d="M 190 145 A 210 210 0 0 1 560 160" fill="none" stroke="url(#silverGrad)" stroke-width="12" stroke-linecap="round" />
+
+  <!-- Mountain Silhouette (Gold Metallic) -->
+  <g transform="translate(25, -10)">
+    <!-- Mountain Peaks -->
+    <polygon points="380,80 430,170 330,170" fill="url(#goldGrad)" />
+    <polygon points="430,170 480,95 530,170" fill="url(#goldGrad)" opacity="0.9" />
+    <polygon points="300,125 350,170 260,170" fill="url(#goldGrad)" opacity="0.8" />
+    <polygon points="510,120 570,170 470,170" fill="url(#goldGrad)" opacity="0.85" />
+    <!-- Mountain Shading / Ridges -->
+    <polygon points="380,80 405,170 330,170" fill="url(#goldLightGrad)" />
+    <polygon points="480,95 505,170 430,170" fill="url(#goldLightGrad)" />
+    <polygon points="300,125 325,170 260,170" fill="url(#goldLightGrad)" />
+  </g>
+
+  <!-- 3D Off-Road Tyre (Left side) -->
+  <g transform="translate(115, 140) rotate(-22)">
+    <!-- Tire Outer Ellipse Body -->
+    <ellipse cx="60" cy="70" rx="55" ry="95" fill="url(#tireGrad)" stroke="#111" stroke-width="3" />
+    <ellipse cx="75" cy="70" rx="40" ry="75" fill="#141517" stroke="url(#silverDarkGrad)" stroke-width="2" />
+    <ellipse cx="85" cy="70" rx="25" ry="50" fill="#0D0D0D" />
+    
+    <!-- Deep Tread Grooves -->
+    <path d="M 12 25 L 35 32 L 25 45 L 5 38 Z" fill="url(#treadGrad)" />
+    <path d="M 8 50 L 32 57 L 22 70 L 2 63 Z" fill="url(#treadGrad)" />
+    <path d="M 8 75 L 32 82 L 22 95 L 2 88 Z" fill="url(#treadGrad)" />
+    <path d="M 12 100 L 35 107 L 25 120 L 5 113 Z" fill="url(#treadGrad)" />
+    <path d="M 22 5 L 45 12 L 35 25 L 15 18 Z" fill="url(#treadGrad)" />
+    <path d="M 22 122 L 45 129 L 35 142 L 15 135 Z" fill="url(#treadGrad)" />
+
+    <!-- Tread Center Lines -->
+    <path d="M 38 20 Q 30 70 38 120" stroke="url(#silverGrad)" stroke-width="3" fill="none" />
+    <path d="M 48 25 Q 40 70 48 115" stroke="url(#silverGrad)" stroke-width="2" fill="none" opacity="0.6" />
+  </g>
+
+  <!-- Big '4' Text (Gold Metallic) -->
+  <text x="255" y="340" font-family="'Anton', 'Oswald', sans-serif" font-size="195" font-weight="900" font-style="italic" fill="url(#goldGrad)" stroke="#684C02" stroke-width="3">4</text>
+  
+  <!-- Big 'T1' Text (Silver/White Metallic) -->
+  <text x="405" y="340" font-family="'Anton', 'Oswald', sans-serif" font-size="195" font-weight="900" font-style="italic" fill="url(#silverGrad)" stroke="#4A4E54" stroke-width="3">T1</text>
+
+  <!-- Horizontal Accent Lines around SERVICES -->
+  <line x1="150" y1="390" x2="225" y2="390" stroke="url(#goldGrad)" stroke-width="3" />
+  <line x1="160" y1="397" x2="225" y2="397" stroke="url(#goldGrad)" stroke-width="2" />
+
+  <line x1="525" y1="390" x2="600" y2="390" stroke="url(#goldGrad)" stroke-width="3" />
+  <line x1="525" y1="397" x2="590" y2="397" stroke="url(#goldGrad)" stroke-width="2" />
+
+  <!-- 'SERVICES' Text (Silver Metallic) -->
+  <text x="375" y="405" font-family="'Oswald', 'Montserrat', sans-serif" font-size="46" font-weight="800" fill="url(#silverGrad)" letter-spacing="12" text-anchor="middle">SERVICES</text>
+
+  <!-- 5 Gold Stars Arc Below SERVICES -->
+  <g transform="translate(375, 450)" fill="url(#goldGrad)">
+    <!-- Star 1 -->
+    <polygon points="-120,0 -114,-15 -98,-15 -111,-24 -106,-38 -120,-29 -134,-38 -129,-24 -142,-15 -126,-15" transform="scale(0.55)" />
+    <!-- Star 2 -->
+    <polygon points="-60,10 -54,-5 -38,-5 -51,-14 -46,-28 -60,-19 -74,-28 -69,-14 -82,-5 -66,-5" transform="scale(0.55)" />
+    <!-- Star 3 (Center Star, Slightly Bigger) -->
+    <polygon points="0,15 7,-4 26,-4 11,-15 17,-33 0,-22 -17,-33 -11,-15 -26,-4 -7,-4" transform="scale(0.65)" />
+    <!-- Star 4 -->
+    <polygon points="60,10 66,-5 82,-5 69,-14 74,-28 60,-19 46,-28 51,-14 38,-5 54,-5" transform="scale(0.55)" />
+    <!-- Star 5 -->
+    <polygon points="120,0 126,-15 142,-15 129,-24 134,-38 120,-29 106,-38 111,-24 98,-15 114,-15" transform="scale(0.55)" />
+  </g>
+
+  <!-- Bottom Arch Arc (Silver Metallic) -->
+  <path d="M 235 465 A 210 210 0 0 0 515 465" fill="none" stroke="url(#silverGrad)" stroke-width="8" stroke-linecap="round" />
+</svg>
