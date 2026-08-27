@@ -2,7 +2,7 @@ services:
   - type: web
     name: 4t1-services
     runtime: python
-    buildCommand: "pip install --upgrade pip && pip install -r requirements.txt && python manage.py collectstatic --no-input && python manage.py migrate"
+    buildCommand: "python -m pip install --upgrade pip && python -m pip install -r requirements.txt && python manage.py collectstatic --no-input && python manage.py migrate"
     startCommand: "python -m gunicorn fortione_services.wsgi:application"
     envVars:
       - key: SECRET_KEY
