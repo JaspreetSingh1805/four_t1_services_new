@@ -1,1 +1,1 @@
-web: gunicorn fortione_services.wsgi:application
+web: python -m gunicorn fortione_services.wsgi:application
